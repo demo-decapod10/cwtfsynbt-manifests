@@ -38,8 +38,6 @@ spec:
   enableAdminAPI: false
   retention: "2d"
   routePrefix: "/"
-  secrets:
-    - etcd-client-cert
   serviceAccountName: lma-prometheus
   serviceMonitorSelector: {}
   serviceMonitorNamespaceSelector:
